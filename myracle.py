@@ -5,7 +5,7 @@ import streamlit as st
 from IPython.display import Image, display
 
 # Set up Groq client
-key = "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"  # Replace with your actual API key
+key = "Your API Key "  # Replace with your actual API key
 client = Groq(api_key=key)
 llava_model = 'llava-v1.5-7b-4096-preview'
 
